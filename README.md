@@ -29,11 +29,26 @@ $ cd simple-adder
 
 ```
 Layout
-$ find
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+
+| Segement | Segment | Description |
+| -------- | ------- | ----------- |
+| ./README.md | | this file |
+| ./test_this.py | | Unit tests for grammar-tool |
+| ./tests.gunit    | | Unit tests for gunut |
+| ./compose-order.gt
+| ./start.lark | | 
+| ./examples.md | | 
+| ./add | | 
+| ./add/test_this.py | | 
+| ./add/start.lark | | 
+| ./add/this.lark | | 
+| ./num | | 
+| ./num/test_this.py | | 
+| ./num/start.lark | | 
+| ./num/this.lark | | 
+
+
+...
 
 To retrieve a list of random ingredients,
 you can use the `lumache.get_random_ingredients()` function:
